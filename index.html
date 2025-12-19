@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>César | Comunicación Visual Retro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Inicio -->
+    <section id="inicio" class="hero">
+      <h1>Hola, soy César</h1>
+      <p>Diseño experiencias visuales claras, cálidas y retro‑animadas para equipos.</p>
+      <a class="btn" href="#contacto">Conversemos</a>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Facilitación visual y recordatorios animados</li>
+        <li>Reportes con estilo consola cuadriculada</li>
+        <li>Optimización de reuniones y materiales inclusivos</li>
+      </ul>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio">
+      <h2>Portafolio</h2>
+      <div class="grid">
+        <figure>
+          <img src="assets/letrero1.png" alt="Letrero animado">
+          <figcaption>Letrero retro para aniversario</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/reporte.png" alt="Reporte cuadriculado">
+          <figcaption>Reporte estilo consola</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/visual.png" alt="Visual inclusivo">
+          <figcaption>Visual inclusivo para reuniones</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 César — Algarrobo, Chile</small>
+  </footer>
+</body>
+</html>
